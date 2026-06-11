@@ -3,3 +3,4 @@ __pycache__/
 .pytest_cache/
 playwright-report/
 test-results/
+test_data.py/
