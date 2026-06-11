@@ -10,7 +10,7 @@ class Loginpage:
 
 
     def url_redirection(self):
-        self.page.goto("https://qa.bloom365.com/app/")
+        self.page.goto("https://qa.bloom365.com/portal/")
 
     def login_methods(self,username,password):
         self.username.fill(username)

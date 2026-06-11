@@ -56,4 +56,6 @@ def test_case2_withfixtures(login_to_application):
     dashboard.wait_dashboard_fully_loaded()
     assert dashboard.is_dashboard_loaded() 
 
+# def test_case3_withfixtures(login_to_application):
+
 

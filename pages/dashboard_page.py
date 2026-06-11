@@ -4,9 +4,9 @@ class Dashboardpage:
     def __init__(self,page:Page):
         self.page=page
         
-        self.dashboard_text=page.get_by_text("Welcome back,")
-        self.dashboard_text1=page.get_by_text("Completed Applications")
-        self.dashboard_text2=page.get_by_text("Applications In Progress ")
+        self.dashboard_text=page.get_by_text("New Customers")
+        self.dashboard_text1=page.get_by_text("Pending Orders")
+        self.dashboard_text2=page.get_by_text("Active Services")
 
 
     def is_dashboard_loaded(self):
